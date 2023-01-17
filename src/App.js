@@ -13,7 +13,7 @@ function App() {
     myRef.current.value = mockText;
     myRef.current.style.height = calcHeight(mockText) + "px";
     setTextContent(myRef.current.value);
-  });
+  }, []);
 
   const calcHeight = (value) => {
     const numberOfLineBreaks = value.split("\n").length;
