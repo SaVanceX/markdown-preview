@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  top: 40;
+}
+
+.edit-section {
+  width: 50%;
+  background-color: #86c7ccad;
+  height: 928px;
+  overflow-y: scroll;
+  border-right: 5px solid #1e1e1e;
+}
+
+.editor-wrapper {
+  margin-top: 40px;
+}
+
+.textarea {
+  font-family: inherit;
+  font-size: inherit;
+  padding: 1px 6px;
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  resize: both;
+  min-height: 20px;
+  line-height: 20px;
+  outline: none;
+  background: #86c7cc69;
+}
+
+.toolbar {
+  background-color: #1e1e1e;
+  width: inherit;
+  height: 40px;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.preview-wrapper {
+  margin-top: 40px;
+}
+
+.preview-section {
+  width: 50%;
+  background-color: #86c7ccad;
+  height: 928px;
+  overflow-y: scroll;
+}
+
+.preview {
+  padding-left: 10px;
+}
+
+footer {
+  background-color: #1e1e1e;
+  color: white;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
